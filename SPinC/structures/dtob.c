@@ -6,7 +6,7 @@ int main()
 	int num,k=0,q,r;
 	printf("enter the number:");
 	scanf("%d", &num);
-	int *arr=(int*)malloc(10*(sizeof(int)));
+	int *arr=malloc(10*(sizeof(int)));
 
 	while(num)
 	{
